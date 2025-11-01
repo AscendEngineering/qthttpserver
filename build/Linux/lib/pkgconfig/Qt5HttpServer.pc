@@ -1,0 +1,13 @@
+prefix=/home/john/Qt/5.15.2/gcc_64
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 HttpServer
+Description: Qt HttpServer module
+Version: 5.12.0
+Libs: -L${libdir} -lQt5HttpServer 
+Cflags: -DQT_HTTPSERVER_LIB -I${includedir}/QtHttpServer -I${includedir}
+Requires: Qt5Network Qt5Core Qt5WebSockets Qt5SslServer
+
