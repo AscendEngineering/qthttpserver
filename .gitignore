@@ -78,8 +78,6 @@ tags
 *.orig
 *.swp
 *.rej
-*.so
-*.so.*
 *.pbxuser
 *.mode1
 *.mode1v3
